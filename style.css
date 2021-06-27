@@ -6,6 +6,7 @@
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 body{
     Font-size: 18px;
@@ -48,7 +49,7 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-.menu-bar-li{
+.menu-bar-li a{
     margin: 0 .5rem;
     padding: .8rem 1.6rem;
     color: white;
@@ -56,7 +57,7 @@ body{
 .menu-bar-li:last-child{
     margin-right: 0;
 }
-.menu-bar-li:hover{
+.menu-bar-li a:hover{
     color: black;
     border-radius: 30px;
     font-weight: 700;
@@ -64,7 +65,7 @@ body{
     cursor: pointer;
     text-transform: uppercase;
 }
-.menu-bar-li:active{
+.menu-bar-li a:active{
     color: white;
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.4);
@@ -108,6 +109,7 @@ body{
     font-size: 2.5rem;
     font-weight: 700;
     color: hsl(212, 27%, 19%);
+    margin-bottom: 1.5rem;
 }
 .services-p{
     font-size: 1.2rem;
@@ -171,6 +173,7 @@ body{
     font-size: 1.5rem;
     font-weight: 900;
     font-family: Fraunces;
+    margin-bottom: 1.5rem;
 }
 /* testimonial section */
 .testimonials{
@@ -207,6 +210,7 @@ body{
     font-family: Fraunces;
     color: hsl(212, 27%, 19%);
     margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 .testimonial-profile-job-titile{
     font-size: .8rem;
@@ -256,7 +260,7 @@ path:hover{
 }
 @media only screen and (max-width: 480px) {
     .site-logo{
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 900;
         color: white;
     }
